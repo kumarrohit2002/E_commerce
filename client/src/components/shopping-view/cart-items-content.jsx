@@ -3,6 +3,7 @@ import { Button } from "../ui/button";
 import { useDispatch, useSelector } from "react-redux";
 import { deleteCartItem, updateCartQuantity } from "@/store/shop/cart-slice";
 import { useToast } from "../ui/use-toast";
+import { Helmet } from "react-helmet";
 
 function UserCartItemsContent({ cartItem }) {
   const { user } = useSelector((state) => state.auth);
@@ -73,6 +74,15 @@ function UserCartItemsContent({ cartItem }) {
 
   return (
     <div className="flex items-center space-x-4">
+
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>{cartItem?.title}</title>
+        <link rel="canonical" href="http://mysite.com/example" />
+        <meta name="keywords" content="React, Helmet, SEO, Awesome" />
+        <meta name="description" content="React, Helmet, SEO, Awesome" />
+      </Helmet>
+
       <img
         src={cartItem?.image}
         alt={cartItem?.title}
