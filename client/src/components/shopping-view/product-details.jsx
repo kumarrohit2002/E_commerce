@@ -110,9 +110,9 @@ function ProductDetailsDialog({ open, setOpen, productDetails }) {
       <Helmet>
         <meta charSet="utf-8" />
         <title>{productDetails?.title}</title>
-        <link rel="canonical" href="http://mysite.com/example" />
-        <meta name="keywords" content="React, Helmet, SEO, Awesome" />
-        <meta name="description" content="React, Helmet, SEO, Awesome" />
+        <link rel="canonical" href="http://mysite.com/example"/>
+        <meta name="keywords" content="React, Helmet, SEO, Awesome"/>
+        <meta name="description" content={`${productDetails?.description}`}/>
       </Helmet>
       <DialogContent className="grid grid-cols-2 gap-8 sm:p-12 max-w-[90vw] sm:max-w-[80vw] lg:max-w-[70vw]">
         <div className="relative overflow-hidden rounded-lg">
