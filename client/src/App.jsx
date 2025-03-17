@@ -22,7 +22,7 @@ import { Skeleton } from "@/components/ui/skeleton";
 import PaypalReturnPage from "./pages/shopping-view/paypal-return";
 import PaymentSuccessPage from "./pages/shopping-view/payment-success";
 import SearchProducts from "./pages/shopping-view/search";
-import {Helmet} from "react-helmet";
+import { Helmet } from "react-helmet";
 
 function App() {
   const { user, isAuthenticated, isLoading } = useSelector(
@@ -40,12 +40,14 @@ function App() {
 
   return (
     <div className="flex flex-col overflow-hidden bg-white">
-            <Helmet>
-                <meta charSet="utf-8" />
-                <title>My Title</title>
-                <link rel="canonical" href="http://mysite.com/example" />
-                <meta name="keywords" content="React, Helmet, SEO, Awesome" />
-            </Helmet>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>E Commerce</title>
+        <link rel="canonical" href="http://mysite.com/example" />
+        <meta name="keywords" content="React, Helmet, SEO, Awesome" />
+        <meta name="description" content="React, Helmet, SEO, Awesome" />
+      </Helmet>
+
       <Routes>
         <Route
           path="/"
