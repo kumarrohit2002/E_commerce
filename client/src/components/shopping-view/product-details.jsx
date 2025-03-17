@@ -111,7 +111,7 @@ function ProductDetailsDialog({ open, setOpen, productDetails }) {
         <meta charSet="utf-8" />
         <title>{productDetails?.title}</title>
         <link rel="canonical" href="http://mysite.com/example"/>
-        <meta name="keywords" content="React, Helmet, SEO, Awesome"/>
+        <meta name="keywords" content={`best ${productDetails?.title}, ${productDetails?.title} in good price`}/>
         <meta name="description" content={`${productDetails?.description}`}/>
       </Helmet>
       <DialogContent className="grid grid-cols-2 gap-8 sm:p-12 max-w-[90vw] sm:max-w-[80vw] lg:max-w-[70vw]">
