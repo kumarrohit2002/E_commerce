@@ -44,8 +44,29 @@ function App() {
         <meta charSet="utf-8" />
         <title>E Commerce</title>
         <link rel="canonical" href="http://mysite.com/example" />
-        <meta name="keywords" content="React, Helmet, SEO, Awesome" />
-        <meta name="description" content="React, Helmet, SEO, Awesome" />
+        <meta name="keywords" content="
+                                      Dresses online,Buy dresses
+                                      Women's dresses,Designer dresses,
+                                      Affordable dresses,Cocktail dresses,
+                                      Evening dresses,Summer dresses,
+                                      Formal dresses,Casual dresses,
+                                      Maxi dresses,Mini dresses,
+                                      Wrap dresses,Wedding guest cloth,
+                                      Party dresses,Prom dresses,
+                                      Special occasion cloth,Floral dresses,
+                                      Lace dresses,Satin dresses,
+                                      Long sleeve dresses,Plus size dresses,
+                                      Dresses panjab,Boutiques dresses,
+                                      Where to buy affordable cocktail dresses online,Best summer dresses for women over 50,
+                                      Formal dresses for wedding guests in [Season]," />
+
+        <meta name="description" content="The Dresser: Your Online Destination for Men's, Women's, and Kids' Fashion.
+                                          Discover the latest trends and timeless styles at The Dresser. We offer a wide selection of clothing, footwear, 
+                                          and accessories for the whole family. From everyday essentials to statement pieces, find everything you need to 
+                                          elevate your wardrobe. Shop our extensive collection of men's shirts, women's dresses, kids' wear, shoes, and more. 
+                                          At The Dresser, we believe in quality, style, and making fashion accessible to everyone. Browse our categories and 
+                                          find your perfect fit today!" 
+                                                                      />
       </Helmet>
 
       <Routes>
