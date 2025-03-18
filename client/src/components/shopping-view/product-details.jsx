@@ -97,7 +97,7 @@ function ProductDetailsDialog({ open, setOpen, productDetails }) {
       : 0;
 
       return (
-        <Dialog open={open} onOpenChange={handleDialogClose}>
+        <Dialog open={open} className='mt-20' onOpenChange={handleDialogClose}>
           <Helmet>
             <meta charSet="utf-8" />
             <title>{productDetails?.title}</title>
