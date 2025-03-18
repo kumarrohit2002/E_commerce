@@ -221,8 +221,8 @@ function ShoppingHome() {
               : null}
           </div>
         </div>
-      </section>
-      <ProductDetailsDialog
+      </section >
+      <ProductDetailsDialog className='mt-20'
         open={openDetailsDialog}
         setOpen={setOpenDetailsDialog}
         productDetails={productDetails}
