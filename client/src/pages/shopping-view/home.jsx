@@ -227,6 +227,7 @@ function ShoppingHome() {
         setOpen={setOpenDetailsDialog}
         productDetails={productDetails}
       />
+      <hr className="m-4" />
       <section>
         <Fotter/>
       </section>
