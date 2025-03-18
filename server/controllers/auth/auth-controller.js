@@ -65,10 +65,10 @@ const loginUser = async (req, res) => {
         userName: checkUser.userName,
       },
       process.env.JWT_SECRET_KEY,
-      { expiresIn: "60m" }
+      { expiresIn: "12h" }
     );
 
-    res.cookie("token", token, { httpOnly: true, secure: false }).json({
+    res.cookie("token", token, { httpOnly: true, secure: false,sameSite: 'None', maxAge: 12 * 60 * 60 * 1000 }).json({
       success: true,
       message: "Logged in successfully",
       user: {
