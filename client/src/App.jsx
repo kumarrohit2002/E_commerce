@@ -45,7 +45,7 @@ function App() {
         <title>E Commerce</title>
         <link rel="canonical" href="http://mysite.com/example" />
         <meta name="keywords" content="
-                                      Dresses online,Buy dresses
+                                      Dresses online,Buy dresses,
                                       Women's dresses,Designer dresses,
                                       Affordable dresses,Cocktail dresses,
                                       Evening dresses,Summer dresses,
